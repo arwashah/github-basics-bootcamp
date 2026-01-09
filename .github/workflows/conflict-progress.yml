@@ -1,0 +1,33 @@
+name: Conflict Progress
+
+on:
+  push:
+
+permissions:
+  contents: write
+
+jobs:
+  conflict:
+    runs-on: ubuntu-latest
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Detect conflict resolution
+        id: conflict
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          result=$(python scripts/detect_conflict_resolved.py)
+          echo "value=$result" >> "$GITHUB_OUTPUT"
+
+      - name: Update progress for I
+        if: steps.conflict.outputs.value == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/update_progress.py --tasks I --branch "${{ github.event.repository.default_branch }}"

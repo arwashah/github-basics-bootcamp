@@ -1,0 +1,2 @@
+# Conflict exercise file
+COLOR=BLUE
