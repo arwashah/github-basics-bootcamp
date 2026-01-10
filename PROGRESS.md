@@ -9,7 +9,7 @@ If a box does not update, see the Troubleshooting section in `README.md`.
 - [ ] D. Make a commit
 - [ ] E. Push the branch
 - [ ] F. Open a Pull Request
-- [ ] G. Address a review comment
+- [ ] G. Change your first and last name in certificate section
 - [ ] H. Merge the PR
 - [ ] I. Resolve a merge conflict
 - [ ] J. Open an Issue

@@ -191,32 +191,31 @@ Auto-check:
 
 ---
 
-### G) Address a review comment (simulate review)
+### G) Change your first and last name in certificate section
 
-This step requires a review from another GitHub account. Ask a friend, classmate, or use a second account to add a review with **Request changes** on your PR.
+Update the certificate profile so your name appears on the final PDF.
 
 Commands:
 ```bash
-# Make a small fix in response to the review
-git add lessons/D-commit.md
-git commit -m "fix: respond to review"
+# Edit certificate/profile.json and replace FIRST/LAST with your name
+git add certificate/profile.json
+git commit -m "docs: add certificate name"
 git push
 ```
 
 GitHub Desktop:
-- Make a small fix in your editor
+- Edit `certificate/profile.json` and replace `FIRST` and `LAST`
 - In GitHub Desktop, add a commit message and click **Commit to feature/first-change**
 - Click **Push origin**
 
 GitHub UI:
-1) Reviewer adds a review with **Request changes**
-2) You push a follow-up commit to address it
+- No UI action required
 
 Observe:
-- The PR shows your new commit after the review
+- Your changes to `certificate/profile.json` are pushed to the branch
 
 Auto-check:
-- `PROGRESS.md` item G is checked when you push after a changes-requested review exists
+- `PROGRESS.md` item G is checked when the change is pushed
 
 ---
 
