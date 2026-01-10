@@ -2,6 +2,13 @@
 
 Pushing sends your commits to GitHub so others can see them.
 
+What it is:
+- A push updates the remote branch with your local commits.
+
+Why it is useful:
+- Shares your work and backs it up on GitHub.
+- Triggers CI checks and enables pull requests.
+
 Checklist mapping:
 - E) Push the branch
 
