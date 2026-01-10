@@ -314,6 +314,20 @@ Auto-check:
 
 ---
 
+## Certificate (auto-generated)
+
+After all tasks A-L are complete, a GitHub Action generates a PDF certificate
+and commits it to your fork.
+
+Setup (one time):
+1) Open `certificate/profile.json`
+2) Replace `FIRST` and `LAST` with your real name
+3) Commit and push the change
+
+Notes:
+- The certificate includes your GitHub username, your name, and the completion date (UTC).
+- You can re-run the **Generate Certificate** workflow from Actions to regenerate it.
+
 ## Troubleshooting
 
 Actions disabled in fork:
