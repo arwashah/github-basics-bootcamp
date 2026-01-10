@@ -5,9 +5,9 @@ If a box does not update, see the Troubleshooting section in `README.md`.
 
 - [x] A. Fork the upstream repo
 - [x] B. Clone locally
-- [ ] C. Create a new branch
-- [ ] D. Make a commit
-- [ ] E. Push the branch
+- [x] C. Create a new branch
+- [x] D. Make a commit
+- [x] E. Push the branch
 - [ ] F. Open a Pull Request
 - [ ] G. Address a review comment
 - [ ] H. Merge the PR
