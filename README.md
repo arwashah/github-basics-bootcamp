@@ -15,15 +15,17 @@ Welcome to the GitHub Basics Bootcamp. This repo teaches GitHub fundamentals thr
 
 1) Click **Fork** on the top right of this repo.
 2) Select your personal account as the destination.
-3) Open the fork, then go to **Actions** and enable workflows if prompted.
-4) Go to **Settings > Actions > General** and set **Workflow permissions** to **Read and write**.
+3) Set the fork visibility to **Public** (this is required for the bootcamp).
+4) Open the fork, then go to **Actions** and enable workflows if prompted.
+5) Go to **Settings > Actions > General** and set **Workflow permissions** to **Read and write**.
 
 ### Option 2: Fork to an organization
 
 1) Click **Fork** and choose your organization.
-2) Ask an org owner to allow forking if required.
-3) In the org fork, go to **Actions** and enable workflows if prompted.
-4) In the org fork, go to **Settings > Actions > General**:
+2) Set the fork visibility to **Public** (this is required for the bootcamp).
+3) Ask an org owner to allow forking if required.
+4) In the org fork, go to **Actions** and enable workflows if prompted.
+5) In the org fork, go to **Settings > Actions > General**:
    - Set **Workflow permissions** to **Read and write**.
    - If the org enforces branch protection, temporarily relax it for this repo so the bot can update `PROGRESS.md` on the default branch.
 
@@ -42,6 +44,16 @@ This marks:
 ## Lessons
 
 Each task has a short lesson in the `lessons/` folder. Read them as you go.
+
+## Folder guide
+
+Use this as a map while you work through the tasks.
+
+- `lessons/` — Short explanations for each task (A–L). Open the matching lesson right before you do that step.
+- `conflict-exercise/` — Files used only for the merge conflict practice (task I). Open this folder when you reach the conflict step.
+- `scripts/` — Automation used by the bootcamp to detect progress. You do not need to edit or run these.
+- `.github/` — GitHub Actions workflows that update `PROGRESS.md`. You do not need to edit these.
+- `PROGRESS.md` — Your checklist. Check this after each task to confirm it was recorded.
 
 ## The bootcamp tasks (A to L)
 
@@ -78,6 +90,10 @@ git clone https://github.com/YOUR-USER-OR-ORG/github-basics-bootcamp.git
 cd github-basics-bootcamp
 ```
 
+GitHub Desktop:
+- On your fork, click **Code** > **Open with GitHub Desktop** (or use **File > Clone repository** in the app)
+- Choose a local path and click **Clone**
+
 GitHub UI:
 - Click the **Code** button and copy the HTTPS URL
 
@@ -95,6 +111,10 @@ Commands:
 ```bash
 git checkout -b feature/first-change
 ```
+
+GitHub Desktop:
+- Click **Current Branch** > **New Branch**
+- Name it `feature/first-change` and create it
 
 GitHub UI:
 - No UI action required
@@ -117,6 +137,10 @@ git add lessons/C-branch.md
 git commit -m "docs: update lesson C"
 ```
 
+GitHub Desktop:
+- Edit a file (for example `lessons/C-branch.md`)
+- In GitHub Desktop, select the change, add a commit message, and click **Commit to feature/first-change**
+
 GitHub UI:
 - No UI action required
 
@@ -134,6 +158,9 @@ Commands:
 ```bash
 git push -u origin feature/first-change
 ```
+
+GitHub Desktop:
+- Click **Push origin** in the top bar
 
 GitHub UI:
 - Go to your fork and you should see a banner suggesting a PR
@@ -176,6 +203,11 @@ git commit -m "fix: respond to review"
 git push
 ```
 
+GitHub Desktop:
+- Make a small fix in your editor
+- In GitHub Desktop, add a commit message and click **Commit to feature/first-change**
+- Click **Push origin**
+
 GitHub UI:
 1) Reviewer adds a review with **Request changes**
 2) You push a follow-up commit to address it
@@ -211,6 +243,10 @@ Follow the instructions in `conflict-exercise/README.md` to create and resolve a
 
 Commands:
 - See `conflict-exercise/README.md`
+
+GitHub Desktop:
+- Follow `conflict-exercise/README.md` for the edits
+- When GitHub Desktop shows a conflict, open in your editor, fix it, mark as resolved, then commit and push
 
 GitHub UI:
 - You may resolve locally or in the GitHub conflict editor
@@ -277,6 +313,20 @@ Auto-check:
 - `PROGRESS.md` item L is checked when the release is published
 
 ---
+
+## Certificate (auto-generated)
+
+After all tasks A-L are complete, a GitHub Action generates a PDF certificate
+and commits it to your fork.
+
+Setup (one time):
+1) Open `certificate/profile.json`
+2) Replace `FIRST` and `LAST` with your real name
+3) Commit and push the change
+
+Notes:
+- The certificate includes your GitHub username, your name, and the completion date (UTC).
+- You can re-run the **Generate Certificate** workflow from Actions to regenerate it.
 
 ## Troubleshooting
 
