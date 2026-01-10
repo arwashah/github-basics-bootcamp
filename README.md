@@ -173,25 +173,7 @@ Auto-check:
 
 ---
 
-### F) Open a Pull Request
-
-Commands:
-- None
-
-GitHub UI:
-1) Click **Compare & pull request** on your fork
-2) Ensure the base branch is your default branch (usually `main`)
-3) Create the PR
-
-Observe:
-- The PR is open
-
-Auto-check:
-- `PROGRESS.md` item F is checked when the PR opens
-
----
-
-### G) Change your first and last name in certificate section
+### F) Change your first and last name in certificate section
 
 Update the certificate profile so your name appears on the final PDF.
 
@@ -215,7 +197,25 @@ Observe:
 - Your changes to `certificate/profile.json` are pushed to the branch
 
 Auto-check:
-- `PROGRESS.md` item G is checked when the change is pushed
+- `PROGRESS.md` item F is checked when the change is pushed
+
+---
+
+### G) Open a Pull Request
+
+Commands:
+- None
+
+GitHub UI:
+1) Click **Compare & pull request** on your fork
+2) Ensure the base branch is your default branch (usually `main`)
+3) Create the PR
+
+Observe:
+- The PR is open
+
+Auto-check:
+- `PROGRESS.md` item G is checked when the PR opens
 
 ---
 

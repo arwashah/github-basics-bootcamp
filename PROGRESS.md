@@ -8,8 +8,8 @@ If a box does not update, see the Troubleshooting section in `README.md`.
 - [ ] C. Create a new branch
 - [ ] D. Make a commit
 - [ ] E. Push the branch
-- [ ] F. Open a Pull Request
-- [ ] G. Change your first and last name in certificate section
+- [ ] F. Change your first and last name in certificate section
+- [ ] G. Open a Pull Request
 - [ ] H. Merge the PR
 - [ ] I. Resolve a merge conflict
 - [ ] J. Open an Issue
