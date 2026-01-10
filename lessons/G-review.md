@@ -1,16 +1,16 @@
-# Lesson G: Address a review comment
+# Lesson G: Open a Pull Request
 
-Reviews help improve quality. After a reviewer requests changes, you push fixes.
+A pull request proposes your branch changes for merging.
 
 What it is:
-- A review is feedback on a PR that can approve or request changes.
+- A pull request (PR) is a reviewable proposal to merge one branch into another.
 
 Why it is useful:
-- Catches bugs and improves clarity before merge.
-- Spreads knowledge and aligns the team on standards.
+- Creates a place for discussion, review, and automated checks.
+- Documents the intent and context of a change.
 
 Checklist mapping:
-- G) Address a review comment
+- G) Open a Pull Request
 
 Tip:
-- Ask a classmate or use a second account to add a review.
+- Keep PRs small and focused for easier reviews.

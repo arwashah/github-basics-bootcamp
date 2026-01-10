@@ -1,16 +1,16 @@
-# Lesson F: Open a Pull Request
+# Lesson F: Update your certificate name
 
-A pull request proposes your branch changes for merging.
+Your certificate uses the name in `certificate/profile.json`.
 
 What it is:
-- A pull request (PR) is a reviewable proposal to merge one branch into another.
+- Updating your first and last name so the generated certificate is personalized.
 
 Why it is useful:
-- Creates a place for discussion, review, and automated checks.
-- Documents the intent and context of a change.
+- Ensures your name appears correctly on the final PDF.
+- Confirms you can edit, commit, and push a simple change.
 
 Checklist mapping:
-- F) Open a Pull Request
+- F) Change your first and last name in certificate section
 
 Tip:
-- Keep PRs small and focused for easier reviews.
+- Use your real name so the certificate matches your profile.
