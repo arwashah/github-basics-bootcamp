@@ -3,10 +3,10 @@
 Your certificate uses the name in `certificate/profile.json`.
 
 What it is:
-- Updating your first and last name so the generated certificate is personalized.
+- Updating your first and last name so the certificate data is personalized.
 
 Why it is useful:
-- Ensures your name appears correctly on the final PDF.
+- Ensures your name appears correctly in the certificate data.
 - Confirms you can edit, commit, and push a simple change.
 
 Checklist mapping:

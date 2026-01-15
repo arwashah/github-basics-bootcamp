@@ -1,7 +1,6 @@
 # Bootcamp Progress
 
-Do not check items manually. GitHub Actions updates this file automatically.
-If a box does not update, see the Troubleshooting section in `README.md`.
+Check off each item manually after you complete the task.
 
 - [ ] A. Fork the upstream repo
 - [ ] B. Clone locally

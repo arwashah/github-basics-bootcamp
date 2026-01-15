@@ -13,4 +13,4 @@ Checklist mapping:
 - A) Fork the upstream repo
 
 Tip:
-- After forking, enable Actions in your fork.
+- Check off item A in `PROGRESS.md` after you finish.

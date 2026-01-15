@@ -88,6 +88,6 @@ git commit -m "conflict: mark resolved"
 git push
 ```
 
-## Auto-check
+## Manual check
 
-`PROGRESS.md` item I is checked when `conflict-exercise/RESOLUTION.txt` contains `Status: RESOLVED` on the default branch.
+Check off item I in `PROGRESS.md` after you update `conflict-exercise/RESOLUTION.txt` to `Status: RESOLVED` and merge it to the default branch.

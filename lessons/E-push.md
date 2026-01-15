@@ -7,7 +7,7 @@ What it is:
 
 Why it is useful:
 - Shares your work and backs it up on GitHub.
-- Triggers CI checks and enables pull requests.
+- Updates the remote branch so you can open a pull request.
 
 Checklist mapping:
 - E) Push the branch

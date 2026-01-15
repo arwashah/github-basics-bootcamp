@@ -6,7 +6,7 @@ What it is:
 - A pull request (PR) is a reviewable proposal to merge one branch into another.
 
 Why it is useful:
-- Creates a place for discussion, review, and automated checks.
+- Creates a place for discussion and review.
 - Documents the intent and context of a change.
 
 Checklist mapping:
