@@ -2,12 +2,31 @@
 
 Issues track work and questions.
 
-What it is:
-- An issue is a lightweight record for bugs, tasks, or discussions.
+Objectives:
+- Create a well-scoped issue with clear context.
+- Practice lightweight planning before coding.
 
-Why it is useful:
-- Centralizes context so work is easy to find and prioritize.
-- Connects planning with code changes and pull requests.
+Key concepts:
+- An issue is a lightweight record for bugs, tasks, or discussions.
+- Good issues include expected behavior and steps to reproduce (for bugs).
+
+Steps:
+1. Go to the repository on GitHub and click the "Issues" tab.
+2. Click "New issue".
+3. Write a clear title (actionable and specific).
+4. Describe the issue:
+   - What is happening now
+   - What should happen instead
+   - Any steps, screenshots, or links
+5. Submit the issue.
+
+Verify:
+- The issue appears in the list with your title.
+- The description contains enough context to act on.
+
+Common pitfalls:
+- Vague titles like "bug" or "help".
+- Missing steps or expected behavior.
 
 Checklist mapping:
 - J) Open an Issue

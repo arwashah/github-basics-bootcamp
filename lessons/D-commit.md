@@ -2,12 +2,35 @@
 
 A commit records a snapshot of your work.
 
-What it is:
-- A commit is a single, saved change with a message and author.
+Objectives:
+- Stage the right files.
+- Create a clear, descriptive commit.
 
-Why it is useful:
-- Creates a clear history you can review or roll back.
-- Groups changes into logical steps for easier collaboration.
+Key concepts:
+- A commit is a saved change with a message and author.
+- "Staging" lets you pick exactly what goes into the commit.
+- Small, focused commits are easier to review.
+
+Steps:
+1. Check your working tree:
+   - `git status`
+2. Stage your changes:
+   - `git add <file>` for specific files
+   - or `git add .` for all changes in the repo
+3. Review what is staged:
+   - `git diff --staged`
+4. Create the commit:
+   - `git commit -m "Describe the change"`
+5. Confirm the commit exists:
+   - `git log -1`
+
+Verify:
+- `git status` shows a clean working tree.
+- `git log -1` shows your new commit message.
+
+Common pitfalls:
+- Committing unrelated changes together.
+- Writing vague messages like "update".
 
 Checklist mapping:
 - D) Make a commit
